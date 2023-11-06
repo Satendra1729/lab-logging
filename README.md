@@ -23,7 +23,6 @@
 ### Setup Loki Promtail Grafana for local logs
 
     1. Done all works good
-    2. For windows set __path__ to correct log path
 
 ### Push logs from remote windows machine
 
@@ -41,6 +40,7 @@
         cd src
         docker-compose --env-file .env up -d --force-recreate
 ```
+    3. Verify that loki endpoints localhost:3100/reday and localhost:3100/metrics 
 
 ## References
 
